@@ -160,7 +160,7 @@ fun MyApp() {
 
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
-fun segundaPantalla() {
+fun SegundaPantalla() {
     Column(
         modifier = Modifier
             .background(Color.White)
@@ -192,7 +192,7 @@ fun segundaPantalla() {
 
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
-fun tercerapantalla() {
+fun TerceraPantalla() {
     Column(
         modifier = Modifier
             .padding(20.dp)
@@ -379,7 +379,7 @@ fun BodyScreen() {
 
 @Preview(showBackground = true)
 @Composable
-fun cuartaPantalla() {
+fun CuartaPantalla() {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -417,7 +417,7 @@ fun cuartaPantalla() {
 @OptIn(ExperimentalLayoutApi::class)
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
-fun quintaPantalla() {
+fun QuintaPantalla() {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -439,7 +439,7 @@ fun quintaPantalla() {
         Spacer(modifier = Modifier.height(12.dp))
 
         Text(
-            text = "Elian Gil",
+            text = "Ana Torres",
             fontWeight = FontWeight.Bold,
             fontSize = 22.sp
         )
@@ -447,7 +447,7 @@ fun quintaPantalla() {
         Spacer(modifier = Modifier.height(4.dp))
 
         Text(
-            text = "Desarrollador Fullstack Senior at Proteccion S.A",
+            text = "Diseñadora UX/UI en Nimbus Studio",
             fontSize = 14.sp,
             color = Color.Gray,
             textAlign = TextAlign.Center
